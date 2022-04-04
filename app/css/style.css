@@ -9,3 +9,16 @@
 #quemsomos{
     margin-top: 10px;
 }
+
+.bg-footer{ 
+    background-color: rgb(158, 158, 158);
+}
+
+.margin { 
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.parceiros{ 
+    background-color: antiquewhite;
+}
