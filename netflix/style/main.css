@@ -105,5 +105,37 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.carrosel-filmes{
     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+hr{
+    margin-top: 20px;
+    opacity: 30%;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+footer a:hover{
+    color: var(--rosa);
+    text-decoration: none;
+    transition:  .3s ease all;
 }
