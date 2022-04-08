@@ -1,38 +1,38 @@
-:root{
+:root {
     --rosa: rgb(226, 0, 226);
     --preta: rgb(29, 29, 29);
 }
 
 
-body{
+body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.container{
+.container {
     margin-left: 20px;
     margin-right: 20px;
 }
 
 
-header .container{
-    display:flex;
+header .container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 
-header .logo{
+header .logo {
     color: var(--rosa);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
@@ -41,22 +41,22 @@ header .logo{
 
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: aliceblue;
     margin-right: 10px;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: var(--rosa);
     text-decoration: none;
-    transition:  .3s ease all;
+    transition: .3s ease all;
 }
 
 /* filme principal*/
-.filme-principal{
+.filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/netflix/img/thor.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/netflix/img/thor.jpg');
     height: 400px;
     background-size: cover;
 
@@ -67,20 +67,20 @@ header nav a:hover{
     margin: auto;
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
     margin-bottom: 40px;
     margin-top: 10px;
 }
 
-.titulo{
+.titulo {
     margin-top: 20px;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
-.botao{
-    background-color:rgba(0, 0, 0, 0.5);
+.botao {
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -89,29 +89,29 @@ header nav a:hover{
     margin-top: 20px;
     font-size: 14px;
     cursor: pointer;
-    transition:  .3s ease all;
+    transition: .3s ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: rgba(255, 255, 255, 0.9);
     color: var(--rosa);
 }
 
-.botao i{
+.botao i {
     margin-right: 4px;
 }
 
-.box-filme{
+.box-filme {
     height: 100%;
     width: 100%;
     display: block;
 }
 
-.owl-dots{
+.owl-dots {
     display: none;
 }
 
-.carrosel-filmes{
+.carrosel-filmes {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -123,19 +123,19 @@ footer {
     text-align: center;
 }
 
-hr{
+hr {
     margin-top: 20px;
     opacity: 30%;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: aliceblue;
     margin-right: 10px;
 }
 
-footer a:hover{
+footer a:hover {
     color: var(--rosa);
     text-decoration: none;
-    transition:  .3s ease all;
+    transition: .3s ease all;
 }
